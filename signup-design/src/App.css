@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.img-1{
+  width: 150px;
+}
+.img-2{
+  width: 370px;
+  margin-bottom: 15px;
+  border: 5px solid transparent;
+  border-radius: 20px;
+}
+
+.part-1{
+  float: left;
+  display: flex;
+  align-items: center;
+  margin-top: 105px;
+  margin-left: 170px;
+  font-size: 30px;
+}
+.part-2{
+  float: right;
+  margin-top: 105px;
+  margin-right: 75px;
+}
+.part-3{
+  float: left;
+  text-align: center;
+  margin-left: 270px;
+  margin-top: 45px;
+}
+.part-4{
+  float: right;
+  margin-right: 105px;
+  text-align: center;
+}
+.part-4 .text{
+  margin-bottom: 25px;
+}
+form h3{
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+form h4{
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+input[type="text"]{
+  width: 380px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+input[type="submit"]{
+  width: 380px;
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: #4CB8EA;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+}
+input[type="submit"]:hover{
+  background-color: #13A2E4;
+}
+a{
+  color: #3470DD;
+  text-decoration: none;
+}
+.part-5{
+  float: left;
+  margin-top: 155px;
+  text-align: center;
+  margin-left: 350px;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #454E59;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FFFFFF;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+img{
+  width: 150px;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+h1{
+  font-size: 75px;
+  color: #2A2E35;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+input[type="text"],input[type="password"]{
+  border: 1px solid gray;
+  margin-top: 10px;
+  width: 25%;
+  font-size: 20px;
+  height: 40px;
+  border: 2px solid  gray;
+}
+input[type="submit"]{
+  margin-top: 10px;
+  font-size: 20px; 
+  width: 25%;
+  height: 40px;
+  background-color: #13A2E4;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: white;
+}
+input[type="submit"]:hover{
+  background-color: #80BDE3;
+}
+::placeholder{
+  padding-left: 15px;
+}
+h4{
+  margin-top: 55px;
+  text-align: center;
+  font-size: 25px;
+  color: #454E59;
+}
+a{
+  text-decoration: none;
+  color: #044ED6;
+}
+h3{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  color: #044ED6;
+}
+ul{
+  margin-top: 120px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  color: #454E59;
+  margin-bottom: 25px;
+}
